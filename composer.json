@@ -1,0 +1,21 @@
+{
+    "name": "xj/yii2-introjs-widget",
+    "description": "yii2-introjs-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "xjflyttp",
+            "email": "xjflyttp@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "bower-asset/intro.js": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xj\\introjs\\": ""
+        }
+    }
+}
