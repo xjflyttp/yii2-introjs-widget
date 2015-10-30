@@ -16,9 +16,11 @@ Assets
 ---
 ```php
 //Base Assets
-xj\notifyjs\NotifyjsAsset::register($this);
+xj\introjs\IntrojsAsset::register($this);
 
 //Themes Assets
-xj\notifyjs\themes\MetroAsset::register($this);
-xj\notifyjs\themes\BootstrapAsset::register($this);
+xj\introjs\themes\DarkAsset::register($this);
+xj\introjs\themes\NassimAsset::register($this);
+xj\introjs\themes\NazaninAsset::register($this);
+xj\introjs\themes\RoyalAsset::register($this);
 ```
